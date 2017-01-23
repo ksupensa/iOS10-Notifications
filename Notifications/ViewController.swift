@@ -36,12 +36,12 @@ class ViewController: UIViewController {
         })
     }
     
-    /**
-     Schedule a default notification and send a request to the User Notification Center
-     - Parameters:
-       - inSec: Time Interval
-       - completion: Closure with a boolean that represents the success of the request
-    */
+    ///
+    /// Schedule a default notification and send a request to the User Notification Center
+    /// - parameters:
+    ///     - inSec:        Time Interval
+    ///     - completion:   Closure with a boolean representing the success of the request
+    ///     - success:            Represents the succes of the request
     func scheduleNotification(inSec: TimeInterval, completion: @escaping (_ success: Bool)->()) {
         
         // Add an attachment
