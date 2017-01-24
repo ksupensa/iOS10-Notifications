@@ -1,3 +1,3 @@
 # iOS10-Notifications
 
-##### Learn how to use notification extensions with Attachment and buttons
+##### Learn how to use local notification extensions with Attachment and buttons
